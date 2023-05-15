@@ -20,7 +20,7 @@ export default function Index() {
   // console.log("users", users.rows);
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
+      <h1>Welcome to Remix with Turso, the edge</h1>
       {rows.map((user: any) => {
         return (
           <div key={user.uid}>
