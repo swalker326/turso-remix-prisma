@@ -24,7 +24,7 @@ export default function Index() {
       {rows.map((user: any) => {
         return (
           <div key={user.uid}>
-            <h2>{user.email}</h2>
+            <h2>user: {user.email}</h2>
           </div>
         );
       })}
